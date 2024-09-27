@@ -1,6 +1,10 @@
 function comprar() {
   let tipo = document.getElementById("tipo-ingresso").value;
   let qtd = parseInt(document.getElementById("qtd").value);
+  if (isNaN(qtd) || qtd < 1) { // verificar se o valor é um número válido
+    alert("Insira a quantidade válida");
+    return;
+  }
 
   if (tipo === "pista") {
     comprarPista(qtd);
@@ -13,7 +17,7 @@ function comprar() {
 
 function comprarPista(qtd) {
   let ingresso = parseInt(document.getElementById("qtd-pista").textContent);
-  if (qtd > ingresso || ingresso > 0) {
+  if (qtd > ingresso) {
     alert("Quantidade indisponível para a compra");	
   } else {
       ingresso = ingresso - qtd;
@@ -24,7 +28,7 @@ function comprarPista(qtd) {
 
 function comprarSuperior(qtd) {
   let ingresso = parseInt(document.getElementById("qtd-superior").textContent);
-  if (qtd > ingresso || ingresso > 0) {
+  if (qtd > ingresso) {
     alert("Quantidade indisponível para a compra");
   } else {
       ingresso = ingresso - qtd;
@@ -35,7 +39,7 @@ function comprarSuperior(qtd) {
 
 function comprarInferior(qtd) {
   let ingresso = parseInt(document.getElementById("qtd-inferior").textContent);
-  if (qtd > ingresso || ingresso > 0) {
+  if (qtd > ingresso) {
     alert("Quantidade indisponível para a compra");
   } else {
       ingresso = ingresso - qtd;
