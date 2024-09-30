@@ -1,37 +1,44 @@
 let amigos = [];
 
-
-function adicionar() {
-    let amigo = document.getElementById('nome-amigo');
-    if (amigo.value == '') {
-       alert('Por favor, insira o nome do amigo!');
-       return;
-    }
-
-    if (amigos.includes(amigo.value)) {
-        alert('Já existe um amigo com esse nome!');
-        return;
-    }
-
-    let lista = document.getElementById('lista-amigos');
-
-
-    amigos.push(amigo.value);
-
-
-    if (lista.textContent == '' || lista.textContent == undefined) {
-        lista.textContent = amigo.value;
-    } else {
-        lista.textContent = lista.textContent + ', ' + amigo.value;
-    }
-
-
-    amigo.value = '';
-
-
-    atualizarLista();
-    atualizarSorteio();
+function mudarTexto(texto) { 
+    return texto.charAt(0).toUpperCase() + texto.slice(1).toLowerCase(); 
 }
+
+
+function adicionar() { 
+    let amigo = document.getElementById('nome-amigo').value; 
+    if (amigo == '') { 
+       alert('Por favor, insira o nome do amigo!'); 
+       return; 
+    } 
+ 
+    amigo = mudarTexto(amigo) 
+ 
+    if (amigos.includes(amigo)) { 
+        alert('Já existe um amigo com esse nome!'); 
+        return; 
+    } 
+ 
+    let lista = document.getElementById('lista-amigos'); 
+ 
+ 
+    amigos.push(amigo); 
+ 
+ 
+    if (lista.textContent == '' || lista.textContent == undefined) { 
+        lista.textContent = amigo; 
+    } else { 
+        lista.textContent = lista.textContent + ', ' + amigo; 
+    } 
+ 
+ 
+    amigo.value = ''; 
+ 
+ 
+    atualizarLista(); 
+    atualizarSorteio(); 
+}
+
 
 
 function sortear() {
