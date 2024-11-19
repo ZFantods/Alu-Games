@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+
+  &::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-radius: 24px;
+  border: 1px solid #1875E8;
+  box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+  background-image: url(img/ruido.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.binary-to-numeral {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+
+  & > div {
+    display: flex;
+    gap: 50px;
+  }
+}
+
+.input {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 72px;
+  padding-bottom: 3rem;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #1875E8;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 6px;
+  padding: 0 16px;
+  font-size: 24px;
+  background: transparent;
+  color: white;
+  
+  &::placeholder {
+    color: #7da7da79;
+  }
+}
+
+svg {
+  color: #1875E8;
+}
+
+/* .luce {
+  width: 80%;
+  height: 80%;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+} */

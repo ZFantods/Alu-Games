@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary to Numeral</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+<script src="script.js"></script>
+<body>
+  <div class="container">
+    <div class="binary-to-numeral">
+      <h1>Binary to Numeral</h1>
+      <div>
+        <div class="input">
+          <label for="binary">
+            <img src="img/binary.svg" alt="" width="50">
+          </label>
+          <input type="text" id="binary" placeholder="binary" onchange="convert()" />
+        </div>
+
+        <div class="input">
+          <label for="numeral">
+            <img src="img/list-ordered.svg" alt="" width="50">
+          </label>
+          <input type="text" id="numeral" placeholder="result" readonly />
+        </div>
+      </div>
+    </div>
+    <img src="img/ia.png" />
+  </div>
+</body>
+</html>
