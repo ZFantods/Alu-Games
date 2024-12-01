@@ -1,68 +1,74 @@
-### README do Projeto :brazil:
+# Alura Course Projects + Solo Project :us:
 
-# Projetos do Curso Alura + Projeto Solo 
-
-Este repositório reúne uma coleção de pequenos projetos desenvolvidos durante o curso da [Alura](https://www.alura.com.br/) e um projeto solo. Cada projeto aborda conceitos fundamentais de programação e práticas recomendadas para iniciantes.
+This repository contains a collection of small projects developed during the [Alura](https://www.alura.com.br/) course and a solo project. Each project focuses on fundamental programming concepts and best practices for beginners.
 
 ---
 
-## 🚀 **Projetos do Curso**
+## 💾 **Course Projects**
 
-### 1. **Alugar Jogo**  
-Um sistema simples para gerenciar o aluguel de jogos.  
-- **Funcionalidades**:  
-  - Validação de disponibilidade do jogo.  
-
----
-
-### 2. **Amigo-Secreto**  🎁
-Ferramenta para organizar um amigo-secreto.  
-- **Funcionalidades**:  
-  - Cadastro de participantes.  
-  - Sorteio automático.  
-  - Retorno do nome do amigo-secreto para cada participante.
+### 1. **Game Rental**  
+A simple system to manage game rentals.  
+- **Features**:  
+  - Validation of game availability.  
 
 ---
 
-### 3. **Incrementação de Carrinho de Compras**  
-Simula a funcionalidade de um carrinho de compras em um e-commerce.  
-- **Funcionalidades**:  
-  - Adicionar e remover itens do carrinho.  
-  - Validação da quantidade disponível no estoque.  
-  - Exibição do resumo da compra.
+### 2. **Secret Santa** 🎁  
+A tool to organize a Secret Santa game.  
+- **Features**:  
+  - Participant registration.  
+  - Automatic drawing.  
+  - Returning the assigned name to each participant.
 
 ---
 
-### 4. **Ingresso de um Show**  
-Gerenciamento da compra de ingressos para shows.  
-- **Funcionalidades**:  
-  - Seleção de tipos de ingresso (pista, superior, inferior).  
+### 3. **Shopping Cart Increment**  
+Simulates the functionality of a shopping cart in an e-commerce system.  
+- **Features**:  
+  - Adding and removing items from the cart.  
+  - Validation of available stock quantity.  
+  - Display of the purchase summary.
 
 ---
 
-### 5. **Sorteio de Números**  
-Uma ferramenta para sortear números aleatórios.  
-- **Funcionalidades**:  
-  - Definição de intervalos personalizados para o sorteio.  
-  - Exibição do número sorteado na tela.  
-  - Reinício do sorteio com novos valores.
+### 4. **Concert Ticket**  
+Manages ticket purchases for concerts.  
+- **Features**:  
+  - Selection of ticket types (general admission, upper tier, lower tier).  
 
 ---
 
-## 🛠️ **Projeto Solo: Conversor Binário para Numeral**  
-Uma aplicação personalizada que converte números binários para decimais.  
-- **Funcionalidades**:  
-  - Entrada de números binários pelo usuário.  
-  - Conversão precisa para o sistema decimal.  
-  - Validação de entradas inválidas.
+### 5. **Number Draw**  
+A tool for drawing random numbers.  
+- **Features**:  
+  - Customizable range for the draw.  
+  - Display of the drawn number on the screen.  
+  - Restarting the draw with new values.
 
 ---
 
-## 🧰 **Recursos e Tecnologias Utilizados**  
-- Lógica de programação com condicionais e loops.  
-- Validação de entradas do usuário.  
-- Manipulação de texto e números.  
-- Exibição de mensagens dinâmicas na tela.  
+## 🛠️ **Solo Project: Binary to Decimal Converter**  
+A custom application that converts binary numbers to decimals.  
+- **Features**:  
+  - User input of binary numbers.  
+  - Accurate conversion to the decimal system.  
+  - Validation of invalid inputs.
 
+---
 
-Contribuições, sugestões e feedbacks são bem-vindos! 🚀 
+## 🧰 **Resources and Technologies Used**  
+- Programming logic with conditionals and loops.  
+- User input validation.  
+- Text and number manipulation.  
+- Display of dynamic messages on the screen.  
+
+Contributions, suggestions, and feedback are welcome! 🗞️  
+
+---
+
+## 🚀 Technologies  
+<div>
+  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
